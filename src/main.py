@@ -1,6 +1,5 @@
 from uvicorn import Config, Server
 from web_app import app
-
 if __name__ == '__main__':
     config = Config(
         app=app,
