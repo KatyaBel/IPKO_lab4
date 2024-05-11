@@ -15,8 +15,6 @@ def isCorrectToken(token: str):
         f.seek(0)
         for line in f:
             tokens.append(line[:-1])
-        print(token)
-        print(tokens)
         if token in tokens:
             return True
         else:
